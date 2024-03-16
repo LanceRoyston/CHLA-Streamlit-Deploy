@@ -8,7 +8,7 @@ import pickle
 model = pickle.load(open('LRmodel_V1.pkl', 'rb'))
 
 # Load the encoder dictionary from a pickle file
-with open('//Users/lanceroyston/Downloads/MSBA/Spring 2024/SS ML Deployment/Project 2 CHLA STREAMLIT CLOUD DEPLOY/encoder_V3.pkl', 'rb') as pkl_file:
+with open('encoder_V3.pkl', 'rb') as pkl_file:
     encoder_dict = pickle.load(pkl_file)
 
 
